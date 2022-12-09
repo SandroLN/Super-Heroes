@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/heroesFragment">
+
+    <fragment
+        android:id="@+id/heroesFragment"
+        android:name="com.sandroln.heroesApp.ui.fragments.HeroesFragment"
+        android:label="fragment_heroes_list"
+        tools:layout="@layout/fragment_heroes_list">
+        <action
+            android:id="@+id/action_heroesFragment_to_heroesFragmentDetail"
+            app:destination="@id/heroesFragmentDetail"
+            app:enterAnim="@anim/enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/heroesFragmentDetail"
+        android:name="com.sandroln.heroesApp.ui.fragments.HeroesFragmentDetail"
+        android:label="fragment_heroes_detail"
+        tools:layout="@layout/fragment_hero_detail">
+        <argument
+            android:name="heroId"
+            app:argType="long" />
+        <argument
+            android:name="color"
+            app:argType="integer" />
+        <argument
+            android:name="imageUrl"
+            app:argType="string" />
+    </fragment>
+</navigation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeAppearanceOverlay.CardView" parent="">
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomLeft">20%</item>
+        <item name="cornerSizeBottomRight">20%</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.CardView1" parent="">
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomLeft">10%</item>
+        <item name="cornerSizeBottomRight">10%</item>
+        <item name="cornerSizeTopRight">10%</item>
+        <item name="cornerSizeTopLeft">10%</item>
+    </style>
+
+    <style name="TextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

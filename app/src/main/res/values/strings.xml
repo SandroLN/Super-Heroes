@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SuperHeroes</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="cbt">CBT</string>
+    <string name="hero_name_plug">HERO NAME</string>
+    <string name="weight_plug">24KG</string>
+    <string name="height_plug">2.0M</string>
+    <string name="powerstats">Powerstats</string>
+    <string name="durability">DBT</string>
+    <string name="intelect">INT</string>
+    <string name="power">PWR</string>
+    <string name="speed">SPD</string>
+    <string name="strength">STR</string>
+    <string name="search_title_plug">Search</string>
+</resources>
